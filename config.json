@@ -1,0 +1,132 @@
+{
+  "config_version": "1.0",
+  "vendor_site_code": "AMHU",
+  "target_site_code": "IPLH",
+  "station_type": "AOI",
+  "decimal_places": 3,
+  "sn_column": "SN",
+  "time_column": "Onekey_Open Test End Time",
+  "timezone": "Asia/Shanghai",
+  "output_suffix": "_stack_output.csv",
+  "default_spec_min": 13.0,
+  "default_spec_max": 15.0,
+  "sn_validation": {
+    "enabled": true,
+    "required_prefix": "CYV",
+    "required_length": 48
+  },
+  "items": [
+    {
+      "enabled": true,
+      "output": "FAI112.4",
+      "operation": "direct",
+      "inputs": ["FAI112-4"],
+      "spec_check": true
+    },
+    {
+      "enabled": true,
+      "output": "FAI112.3",
+      "operation": "direct",
+      "inputs": ["FAI112-3"],
+      "spec_check": true
+    },
+    {
+      "enabled": true,
+      "output": "FAI112.2",
+      "operation": "direct",
+      "inputs": ["FAI112-2"],
+      "spec_check": true
+    },
+    {
+      "enabled": true,
+      "output": "FAI112.1",
+      "operation": "direct",
+      "inputs": ["FAI112-1"],
+      "spec_check": true
+    },
+    {
+      "enabled": true,
+      "output": "FAI112_1/4",
+      "operation": "abs_diff",
+      "inputs": ["FAI112-4", "FAI112-1"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "Ave(FAI112_1+112_4)",
+      "operation": "average",
+      "inputs": ["FAI112-4", "FAI112-1"],
+      "spec_check": false
+    },
+    {
+        "enabled": true,
+        "output": "FAI115.1.20N",
+        "operation": "average",
+        "inputs": ["FAI115-1"],
+        "spec_check": false
+    },
+    {
+        "enabled": true,
+        "output": "FAI115.2.20N",
+        "operation": "average",
+        "inputs": ["FAI115-2"],
+        "spec_check": false
+    },
+    {
+        "enabled": true,
+        "output": "FAI115.3.20N",
+        "operation": "average",
+        "inputs": ["FAI115-3"],
+        "spec_check": false
+    },
+    {
+        "enabled": true,
+        "output": "FAI115.4.20N",
+        "operation": "average",
+        "inputs": ["FAI115-4"],
+        "spec_check": false
+    },
+    {
+        "enabled": true,
+        "output": "FAI116.1.20N",
+        "operation": "average",
+        "inputs": ["FAI116-1"],
+        "spec_check": false
+    },
+    {
+        "enabled": true,
+        "output": "FAI116.2.20N",
+        "operation": "average",
+        "inputs": ["FAI116-2"],
+        "spec_check": false
+    },
+    {
+        "enabled": true,
+        "output": "FAI116.3.20N",
+        "operation": "average",
+        "inputs": ["FAI116-3"],
+        "spec_check": false
+    },
+    {
+        "enabled": true,
+        "output": "FAI116.4.20N",
+        "operation": "average",
+        "inputs": ["FAI116-4"],
+        "spec_check": false
+    },
+    {
+        "enabled": true,
+        "output": "FAI 7_3_CV2",
+        "operation": "average",
+        "inputs": ["FAI 7_3_CV2 Free"],
+        "spec_check": false
+    },
+    {
+        "enabled": true,
+        "output": "FAI122.1",
+        "operation": "average",
+        "inputs": ["FAI122_1"],
+        "spec_check": false
+    }
+  ]
+}

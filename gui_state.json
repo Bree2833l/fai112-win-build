@@ -1,0 +1,8 @@
+{
+  "input_file": "/Users/bree.lin/Desktop/出货数据&OQC&waiver/MP daily/20261008/001-10070000-10081856-v18.csv",
+  "output_file": "/Users/bree.lin/Desktop/出货数据&OQC&waiver/MP daily/20261008/16dian47测试.csv",
+  "build": "RAMP",
+  "config": "AH-AMP1-A2-CSV18",
+  "batch_date": "2026/10/08",
+  "stop_on_row_error": true
+}
