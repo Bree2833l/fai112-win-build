@@ -1,6 +1,6 @@
+pandas
+PySide6
+numpy
+openpyxl
+xlsxwriter
 pyinstaller
-# 把你import的包写在这里，一行一个
-# pandas
-# openpyxl
-# pyside6
-
