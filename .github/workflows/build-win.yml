@@ -23,7 +23,7 @@ jobs:
 
       - name: PyInstaller打包成EXE
         run: |
-          pyinstaller -F -w V4_2.py --noconfirm
+          pyinstaller -F -w V4_3.py --noconfirm
           copy config.json dist\config.json
           copy gui_state.json dist\gui_state.json
 
