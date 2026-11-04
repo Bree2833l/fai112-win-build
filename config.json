@@ -127,6 +127,91 @@
         "operation": "average",
         "inputs": ["FAI122_1"],
         "spec_check": false
+    },
+        {
+      "enabled": true,
+      "output": "FAI035_SW_P1",
+      "operation": "direct",
+      "inputs": ["FAI 35_1 Free"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "FAI035_SW_P2",
+      "operation": "direct",
+      "inputs": ["FAI 35_2 Free"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "FAI035_SW_P3",
+      "operation": "direct",
+      "inputs": ["FAI 35_3 Free"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "FAI035_SW_P4",
+      "operation": "direct",
+      "inputs": ["FAI 35_4 Free"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "FAI035_SW_P5",
+      "operation": "direct",
+      "inputs": ["FAI 35_5 Free"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "FAI035_SW_P6",
+      "operation": "direct",
+      "inputs": ["FAI 35_6 Free"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "FAI035_SW_P7",
+      "operation": "direct",
+      "inputs": ["FAI 35_7 Free"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "FAI035_SW_P8",
+      "operation": "direct",
+      "inputs": ["FAI 35_8 Free"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "FAI035_SW_P9",
+      "operation": "direct",
+      "inputs": ["FAI 35_9 Free"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "FAI035_SW_P10",
+      "operation": "direct",
+      "inputs": ["FAI 35_10 Free"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "FAI035_SW_P11",
+      "operation": "direct",
+      "inputs": ["FAI 35_11 Free"],
+      "spec_check": false
+    },
+    {
+      "enabled": true,
+      "output": "FAI035_SW_P12",
+      "operation": "direct",
+      "inputs": ["FAI 35_12 Free"],
+      "spec_check": false
     }
+
   ]
 }
